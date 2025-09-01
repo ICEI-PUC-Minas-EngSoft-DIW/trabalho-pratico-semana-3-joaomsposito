@@ -8,17 +8,16 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: João Marcelo Sposito
+- Matricula: 0000889304
+- Proposta de projeto escolhida: cursos
+- Breve descrição sobre seu projeto: plataforma onde terão cursos sobre determinadas materias ligadas a programação
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+![alt text](image.png)
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](image-1.png)

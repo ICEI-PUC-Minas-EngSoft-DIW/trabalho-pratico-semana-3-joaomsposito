@@ -1,12 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JMCursos - Site de Cursos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <h1>JMCursos</h1>
+        <form class="search-form">
+            <input type="text" placeholder="Buscar cursos..." class="search-input">
+            <button type="submit" class="search-button">Buscar</button>
+        </form>
+    </header>
+    <nav class="nav">
+        <a href="#" class="nav-link">Início</a>
+        <a href="#" class="nav-link">Meus Cursos</a>
+        <a href="#" class="nav-link">Categorias</a>
+        <a href="#" class="nav-link">Contato</a>
+    </nav>
+    <main class="main">
+        <section class="hero">
+            <img src="https://picsum.photos/id/1/800/300" alt="Banner Principal" class="hero-image">
+            <h2>Aprenda com os melhores cursos online</h2>
+            <p>Desenvolva suas habilidades conosco!</p>
+        </section>
+        <section class="courses">
+            <h2>Cursos Recomendados</h2>
+            <div class="course-grid">
+                <article class="course-card">
+                    <img src="https://picsum.photos/id/2/250/150" alt="Curso JavaScript" class="course-image">
+                    <h3>JavaScript Básico</h3>
+                    <p>Prof. João Silva</p>
+                    <p class="price">R$ 89,90</p>
+                    <button class="course-button">Ver Curso</button>
+                </article>
+
+                <article class="course-card">
+                    <img src="https://picsum.photos/id/3/250/150" alt="Curso Python" class="course-image">
+                    <h3>Python para Iniciantes</h3>
+                    <p>Prof. Maria Santos</p>
+                    <p class="price">R$ 79,90</p>
+                    <button class="course-button">Ver Curso</button>
+                </article>
+
+                <article class="course-card">
+                    <img src="https://picsum.photos/id/4/250/150" alt="Curso HTML" class="course-image">
+                    <h3>HTML e CSS</h3>
+                    <p>Prof. Carlos Lima</p>
+                    <p class="price">R$ 69,90</p>
+                    <button class="course-button">Ver Curso</button>
+                </article>
+            </div>
+        </section>
+        <section class="courses">
+            <h2>Cursos Populares</h2>
+            <div class="course-grid">
+                <article class="course-card">
+                    <img src="https://picsum.photos/id/5/250/150" alt="Curso React" class="course-image">
+                    <h3>React Básico</h3>
+                    <p>Prof. Ana Costa</p>
+                    <p class="price">R$ 99,90</p>
+                    <button class="course-button">Ver Curso</button>
+                </article>
+
+                <article class="course-card">
+                    <img src="https://picsum.photos/id/6/250/150" alt="Curso CSS" class="course-image">
+                    <h3>CSS Avançado</h3>
+                    <p>Prof. Pedro Oliveira</p>
+                    <p class="price">R$ 89,90</p>
+                    <button class="course-button">Ver Curso</button>
+                </article>
+
+                <article class="course-card">
+                    <img src="https://picsum.photos/id/7/250/150" alt="Curso Design" class="course-image">
+                    <h3>Design Web</h3>
+                    <p>Prof. Lucia Ferreira</p>
+                    <p class="price">R$ 109,90</p>
+                    <button class="course-button">Ver Curso</button>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Sobre Nós | Contato | Termos de Uso</p>
+        <p>&copy; 2024 JMCursos. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
